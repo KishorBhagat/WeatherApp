@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "A simple weather app made with express",
   "main": "index.js",
+  "engones": {
+    "node": "14.x"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
