@@ -13,7 +13,7 @@ app.set('views', path.join(__dirname, '../views'));
 hbs.registerPartials(path.join(__dirname, "../partials"))
 
 
-app.get('', (req, res)=>{
+app.get('/', (req, res)=>{
     res.render('index');
 });
 app.get('/about', (req, res)=>{
