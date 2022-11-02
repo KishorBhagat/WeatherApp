@@ -103,6 +103,9 @@ body{
     
 } */
 
+#weatherPage{
+    background-color: #4db2ec;
+}
 .weather{
     display: flex;
     justify-content: center;
@@ -196,5 +199,15 @@ footer p{
     .main_header_right{
         height: auto;
         margin-top: 3rem;
+    }
+    .tempInformation{
+        width: 80vw;
+        height: 100vh;
+    }
+    .temp_form #cityName{
+        width: 60vw;
+    }
+    .temp_form #submitBtn{
+        width: 70px;
     }
 }
